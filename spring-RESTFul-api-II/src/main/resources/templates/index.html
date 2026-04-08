@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased">
+
+<nav class="flex items-center justify-between px-10 py-6 bg-white shadow-sm">
+    <div class="text-2xl font-bold tracking-tight text-indigo-600">
+        SPRING<span class="text-slate-800">CORE</span>
+    </div>
+    <div class="space-x-8 font-medium">
+        <a href="#" class="hover:text-indigo-600 transition">Dashboard</a>
+        <a href="#" class="hover:text-indigo-600 transition">Projects</a>
+        <a href="#" class="bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700 transition">Get Started</a>
+    </div>
+</nav>
+
+<main class="max-w-6xl mx-auto mt-20 px-6 text-center">
+    <h1 class="text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+        Build with <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">Precision</span><br>
+        Deploy with Confidence.
+    </h1>
+    <p class="text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
+        A robust backend architecture powered by Java and Spring Boot,
+        designed for high-performance applications and seamless scalability.
+    </p>
+
+    <div class="flex justify-center gap-4">
+        <button class="px-8 py-3 bg-slate-900 text-white rounded-lg font-semibold hover:bg-slate-800 transition shadow-lg">
+            View Documentation
+        </button>
+        <button class="px-8 py-3 bg-white border border-slate-200 rounded-lg font-semibold hover:bg-slate-50 transition">
+            Github Repo
+        </button>
+    </div>
+
+    <div class="mt-20 p-8 bg-white/60 backdrop-blur-md border border-white rounded-3xl shadow-2xl overflow-hidden">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-4">
+                <div class="text-indigo-600 text-3xl mb-2 font-bold">01</div>
+                <h3 class="text-lg font-bold">Fast Performance</h3>
+                <p class="text-slate-500 text-sm">Optimized JVM execution for low-latency responses.</p>
+            </div>
+            <div class="p-4 border-x border-slate-100">
+                <div class="text-indigo-600 text-3xl mb-2 font-bold">02</div>
+                <h3 class="text-lg font-bold">Secure by Default</h3>
+                <p class="text-slate-500 text-sm">Integrated Spring Security with OAuth2 support.</p>
+            </div>
+            <div class="p-4">
+                <div class="text-indigo-600 text-3xl mb-2 font-bold">03</div>
+                <h3 class="text-lg font-bold">Cloud Ready</h3>
+                <p class="text-slate-500 text-sm">Native support for Docker, Kubernetes, and AWS.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="mt-32 py-10 border-t border-slate-200 text-center text-slate-400 text-sm">
+    &copy; 2026 Spring Boot Application. Built for Excellence.
+</footer>
+
+</body>
+</html>
